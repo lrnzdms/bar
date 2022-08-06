@@ -1,0 +1,30 @@
+
+{
+  "version": "0.0.1",
+  "description": "n/a",
+  "scripts": {
+    "build": "node ./config/esbuild.bundle.js",
+    "start": "sh ./config/debug.sh"
+
+  },
+  "author": "lrnzdms",
+  "license": "MIT",
+  "name": "@flamingo/bar",
+  "files": [
+    "dist/**/*"
+  ],
+  "main": "dist/index.html",
+  "types": "dist/types/src/index.d.ts",
+  "keywords": [],
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^11.15.21",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "esbuild": "^0.14.6",
+    "typedoc": "^0.22.4",
+    "typescript": "4.3.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

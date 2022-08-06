@@ -1,0 +1,50 @@
+.root {
+  font-family: 'Work Sans', sans-serif;
+  font-size: inherit;
+  overflow: hidden;
+  margin: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  --grey_light: #eee;
+  --grey_lighter: #ccc;
+  --grey: #aaa;
+  --grey_dark: #333;
+  --red: #f00;
+  --white: #fff;
+  --header-margin: 1rem;
+  --small-margin: .5rem;
+  --tiny-margin: .1rem;
+
+  --color-white: #FCFDFD;
+  --color-black: #1F252E;
+
+  --color-g50: #F2F5F8;
+  --color-g100: #E5EBF1;
+  --color-g200: #CFDAE2;
+  --color-g300: #BFCED9;
+  --color-g400: #A1B4C4;
+  --color-g500: #889BAC;
+  --color-g600: #7A8D9F;
+  --color-g700: #607385;
+  --color-g800: #495769;
+  --color-g900: #343E4D;
+
+  --color-d50: #FDF6F1;
+  --color-d500: #FF5956;
+  --color-d700: #B72B40;
+  --color-d900: #7A1032;
+
+  --color-s50: #EEFDEC;
+  --color-s400: #6BF284;
+  --color-s900: #0B704F;
+
+  --color-p50: #ECF9FE;
+  --color-p500: #3FA9F5;
+
+  --color-w50: #FFFDEB;
+  --color-w600: #DBB200;
+}
